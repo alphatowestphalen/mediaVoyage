@@ -1,0 +1,24 @@
+.cardDetails{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  box-shadow: -1px 0px 7px 0px rgb(46, 45, 45);
+  border-radius: 5px;
+  gap: 37px;
+  margin: 12px 12px;
+}
+.card img{
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+}
+.card .description {
+  margin-left: -37px;
+  padding: 23px 23px;
+}
+.card .description .liste {
+  margin-left: 35px;
+}
+.h-60 {
+  height: 17rem;
+}

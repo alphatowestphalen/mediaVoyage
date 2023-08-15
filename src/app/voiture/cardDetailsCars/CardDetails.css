@@ -1,0 +1,61 @@
+.cardDetails{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  background-color: white;
+  box-shadow: -1px 0px 7px 0px rgb(46, 45, 45);
+  border-radius: 5px;
+  gap: 37px;
+  margin: 12px 12px;
+}
+.card:hover{
+  cursor: pointer;
+}
+.card img{
+  width: 390px;
+  height: 298px;
+  border-radius: 5px 0 0 5px;
+}
+.card .description {
+  margin-left: -37px;
+  padding: 23px 23px;
+}
+.card .description .liste {
+  margin-left: 35px;
+}
+.card .description h3{
+  /* background-color: brown; */
+  width: 100%;
+  font-size: 22px;
+  display: inline-block;
+}
+.desch3p{
+  font-size: 12px;
+}
+.desch3p span{
+  font-size: 12px;
+  display: flex;
+}
+.desch3p .icone {
+  display: flex;
+  gap: 46px;
+  margin-top: 13px;
+}
+h4 {
+ font-size: 18px;
+}
+.prix{
+  margin-bottom: 36px;
+  align-items: flex-end;
+}
+.prix p{
+  font-weight: bold;
+}
+.prix span{
+  font-size: 12px;
+}
+ul{
+  margin-left: 43px;
+}
+

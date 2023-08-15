@@ -1,0 +1,18 @@
+.heider{
+    transition: 2s;
+    /* background-color:aqua; */
+}
+form{
+    justify-content: center;
+    align-items: center ;
+    background-color: #fffffff2;
+    font-size: 15px;
+}
+ form input {
+    font-size: 15px;
+    font-weight: bold;
+}
+.transitions{
+    transition: 2s;
+}
+

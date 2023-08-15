@@ -1,0 +1,40 @@
+.listeForm{
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 23px;
+}
+.listeForm .formListe{
+  width: 26%;
+}
+.listeForm .formListe div{
+  margin-bottom: 12px;
+}
+h5{
+  background-color: blue;
+  color: aliceblue;
+  padding: 10px;
+  width: 100%;
+}
+.contenaireForm{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.demmande{
+  width: 90%;
+}
+/* p {
+  color: rgb(58, 58, 168);
+  margin: 12px;
+} */
+p input {
+  margin-left: 12px;
+}
+.bouton{
+  margin: 19px;
+  display: flex;
+  justify-content: center;
+}
+.bouton button{
+  width: 20%;
+}
