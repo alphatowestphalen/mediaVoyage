@@ -4,7 +4,7 @@ import Slider from './Slider'
 const page = () => {
   return (
     <div>
-      <Slider />
+      <Slider  />
     </div>
   )
 }
