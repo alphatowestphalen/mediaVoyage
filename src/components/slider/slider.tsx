@@ -24,7 +24,7 @@ const slide = [
   { src: v3, description: "ljbjzjbfegvozebvlkazrpovibhrzqoibnaerh" },
 ];
 
-const slider = () => {
+const Slider = () => {
   // Background et Description
   const [desc, setDesc] = useState(
     "absolute inset-0 items-center justify-center hidden"
@@ -142,4 +142,4 @@ const slider = () => {
   );
 };
 
-export default slider;
+export default Slider;

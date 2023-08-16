@@ -12,8 +12,8 @@ const CardDetails: React.FC<MyComponentProps> = ({ cardesDetail }) => {
     <>
       <div className='cardDetails'>
         {cardesDetail.map((data) => (
-          <Link href="/desrciptionParcours">
-            <div key={data.id} className=" flex card">
+          <Link key={data.id} href="/desrciptionParcours">
+            <div  className=" flex card">
               <div>
                 <img
                   className="h-60"
